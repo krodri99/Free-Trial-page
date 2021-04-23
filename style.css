@@ -26,7 +26,7 @@ body {
     width: 100%;
     height: 100%;    
     display: flex;
-    /* padding: 0 1rem; */
+    padding: 0 1rem;
 }
     
 .header {
@@ -34,7 +34,7 @@ body {
     align-self: center;
     text-align: left;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 8%;
 }
     
 h1 {
@@ -42,7 +42,7 @@ h1 {
     white-space: pre-line;
     font-weight: 700;
     font-size: 2rem;
-    /* line-height: 2.5rem; */
+    line-height: 2.5rem;
     margin-top: 5rem;
 }
  
@@ -82,7 +82,7 @@ p {
     align-items: center;
     justify-content: space-evenly;
     background: white;
-    margin: 2rem 6rem;
+    margin: 2rem 3rem;
     border-radius: 0.5rem;
     box-shadow: 0px 7px 2px 0px hsl(0, 36%, 42%);}
 
@@ -133,7 +133,7 @@ form a {
 }
     
     
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 720px) and (min-width: 362px) {
     
         body {
             background-image: url("images/bg-intro-mobile.png");
@@ -182,8 +182,8 @@ form a {
     
         h1 {
             font-weight: 700;
-            font-size: 3rem;
-            line-height: 3.5rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
     
         
